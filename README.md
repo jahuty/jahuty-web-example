@@ -14,7 +14,7 @@ To get started, clone this repository to your computer:
 
 Navigate to the repository's `index.html` and open it your browser. You should see something similar to the following:
 
-![Jahuty example](https://github.com/jahuty/jahuty-web-example/blob/master/public/example.png)
+![Jahuty example](https://github.com/jahuty/jahuty-web-example/blob/master/example.png)
 
 ## Customizing the examples
 
