@@ -2,21 +2,49 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-    <script src="https://unpkg.com/@jahuty/web@0.1.0/dist/web.js"></script>
-    <script>
-      window.addEventListener('load', function () {
-        jahuty('kn2Kj5ijmT2pH6ZKqAQyNexUqKeRM4VG6DDgWN1lIcc');
-      });
-    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+
     <title>Jahuty example</title>
   </head>
   <body>
-    <div data-snippet-id="1">
-      <p>
-        Hello, world!
-      </p>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col p-4">
+          <h1 class="fs-3">
+            <a href="./index.html" class="text-decoration-none">Jahuty <small class="text-muted">beta</small></a>
+          </h1>
+          <p class="lead">
+              Welcome to Jahuty's "web" example using a browser-based script.
+          </p>
+          <p>
+              This application includes the following examples:
+          </p>
+          <ul>
+              <li>
+                  <a href="./snippet.html">Rendering a snippet</a>
+              </li>
+              <li>
+                  <a href="./snippet-with-params.html">Rendering a snippet with parameters</a>
+              </li>
+              <li>
+                  <a href="./snippet-with-latest.html">Rendering a snippet with the latest content</a>
+              </li>
+          </ul>
+          <p>
+              These examples utilize the following "system test" setup:
+          </p>
+          <ul>
+            <li>
+              The "system test" <a href="https://docs.jahuty.com/components/organizations" target="_blank">organization</a> exists in Jahuty with an <a href="https://docs.jahuty.com/components/api-keys" target="_blank">API key</a>.
+            </li>
+            <li>
+              The organization has three <a href="https://docs.jahuty.com/components/snippets" target="_blank">snippets</a>: <code>1</code>, a static phrase; <code>62</code>, a phrase with two <a href="https://docs.jahuty.com/liquid/introduction" target="_blank">variables</a>, <code>foo</code> and <code>bar</code>; and, <code>102</code>, a snippet with staged changes.
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
   </body>
 </html>
